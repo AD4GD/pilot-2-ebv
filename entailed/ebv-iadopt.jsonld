@@ -1,0 +1,1443 @@
+[
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://www.w3.org/ns/dcat#Dataset"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en",
+        "@value": "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EBV"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@id": "http://www.opengis.net/def/entities/bodies/ogcna"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en",
+        "@value": "Essential Biodiversity Variables - codelist scheme"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/collectionView": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geobon.org/ebvs"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/EBV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Speciestraits"
+      },
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Ecosystemfunction"
+      },
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Speciespopulations"
+      },
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Communitycomposition"
+      },
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Ecosystemstructure"
+      },
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Geneticcomposition"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Essential Biodiversity Variables - codelist scheme"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#theme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/estimatedCount",
+    "@type": [
+      "https://w3id.org/iadopt/ont/Property"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Estimated count"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Speciesabundances",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/iadopt/ont/VariableSet",
+      "http://w3id.org/ad4gd/ev/EBV"
+    ],
+    "http://purl.obolibrary.org/obo/hasMember": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "1"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Speciespopulations"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Species abundances"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/hasValue": [
+      {
+        "@value": 100
+      }
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloM2"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Birds",
+    "@type": [
+      "https://w3id.org/iadopt/ont/Entity"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Birds"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Communitycomposition",
+    "@type": [
+      "http://w3id.org/ad4gd/ev/EBV",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/iadopt/ont/VariableSet"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "Community composition"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Community composition"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/freshWater",
+    "@type": [
+      "https://w3id.org/iadopt/ont/Entity"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Fresh Water"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/3years",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/hasValue": [
+      {
+        "@value": 3
+      }
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/YR"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Ecosystemfunction",
+    "@type": [
+      "https://w3id.org/iadopt/ont/VariableSet",
+      "http://w3id.org/ad4gd/ev/EBV",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "Ecosystem function"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Ecosystem function"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Geneticcomposition",
+    "@type": [
+      "http://w3id.org/ad4gd/ev/EBV",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/iadopt/ont/VariableSet"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "Genetic composition"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Genetic composition"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Speciespopulations",
+    "@type": [
+      "https://w3id.org/iadopt/ont/VariableSet",
+      "http://w3id.org/ad4gd/ev/EBV",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.obolibrary.org/obo/hasMember": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Speciesabundances"
+      }
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "Species populations"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Speciesabundances"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Species populations"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/entailed/ebv-iadopt.ttl",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "_:Nef85dbce35bd42adaa4ffd66c7450897"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "_:Naaa6f8931b524b5ea7efbf2a21b47e44"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nef85dbce35bd42adaa4ffd66c7450897",
+    "@type": [
+      "http://www.w3.org/ns/prov#Agent",
+      "https://schema.org/SoftwareApplication"
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "0.3.53"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "ogc.na.update_vocabs version 0.3.53"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "OGC-NA tools"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://github.com/opengeospatial/ogc-na-tools"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naaa6f8931b524b5ea7efbf2a21b47e44",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "python ogc.na.update_vocabs .ogc/catalog.ttl --batch -w . --update --graph-store https://defs-dev.opengis.net/fuseki-hosted/data"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Entailment and validation"
+      }
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-09-17T14:21:11.601881"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-09-17T14:21:07.745450"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "_:Nad2fa61b6a814dfabb3f75af22d0e45c"
+      },
+      {
+        "@id": "_:Nab9adcfb556f45a4a246ed201161b4be"
+      },
+      {
+        "@id": "_:Nadd7649609bc44bbb2f7f1528a781c54"
+      },
+      {
+        "@id": "_:Ndebd35bef14648cdaa58dd6cd33f5565"
+      },
+      {
+        "@id": "_:N03782a0d199542a3990fe4fcf6c6f987"
+      },
+      {
+        "@id": "_:Nc54161f7345343cda009810aedc83570"
+      },
+      {
+        "@id": "_:Ncfda09ea28684d1aab86c2743ff07c69"
+      },
+      {
+        "@id": "_:N8ec1d28003d04570ad8c38c026f867b6"
+      },
+      {
+        "@id": "_:N261bd175ee5f4ff19c75235a73904b20"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "_:Nef85dbce35bd42adaa4ffd66c7450897"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasInformedBy": [
+      {
+        "@id": "_:N07155eddb7814538b8148d4087d9795a"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nad2fa61b6a814dfabb3f75af22d0e45c",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://datashapes.org/dash.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nab9adcfb556f45a4a246ed201161b4be",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nadd7649609bc44bbb2f7f1528a781c54",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndebd35bef14648cdaa58dd6cd33f5565",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
+      }
+    ]
+  },
+  {
+    "@id": "_:N03782a0d199542a3990fe4fcf6c6f987",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/ld+json"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/ebv-iadopt.jsonld"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc54161f7345343cda009810aedc83570",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/.ogc/catalog.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncfda09ea28684d1aab86c2743ff07c69",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8ec1d28003d04570ad8c38c026f867b6",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N261bd175ee5f4ff19c75235a73904b20",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N07155eddb7814538b8148d4087d9795a",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "87a628f6-6bd6-4b58-8b7e-66776b0734ea"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/EBV",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://geobon.org/ebvs"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Essential Biodiversity Variables - codelist class"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/6years",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/hasValue": [
+      {
+        "@value": 6
+      }
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/YR"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.opengis.net/def/entities/bodies/ogcna",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_wetlands",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/ad4gd/model/Product"
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Estimated count of breeding wintering and passage individuals on Wetlands"
+      }
+    ],
+    "http://www.w3.org/ns/dcat#temporalResolution": [
+      {
+        "@value": "P1W"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/higherSpatialResolution": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/lowerSpatialResolution": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/measures": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution",
+    "@type": [
+      "http://qudt.org/schema/qudt/QuantityValue"
+    ],
+    "http://qudt.org/schema/qudt/hasValue": [
+      {
+        "@value": 1
+      }
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "@id": "http://qudt.org/vocab/unit/KiloM2"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Speciestraits",
+    "@type": [
+      "http://w3id.org/ad4gd/ev/EBV",
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/iadopt/ont/VariableSet"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "Species traits"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Species traits"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/entailed/ebv-iadopt.rdf",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/rdf+xml"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "_:N646b05ac4bc74a32a870cce2cb284b05"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "_:Nf6ab5f4bb1ad4fde9367bd6220e8cf06"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf6ab5f4bb1ad4fde9367bd6220e8cf06",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "python ogc.na.update_vocabs .ogc/catalog.ttl --batch -w . --update --graph-store https://defs-dev.opengis.net/fuseki-hosted/data"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Entailment and validation"
+      }
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-09-17T14:21:11.616408"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-09-17T14:21:07.745450"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "_:N1992320d4b354746bcfc6327a146adfd"
+      },
+      {
+        "@id": "_:Nfa3dca80e9434405b6364afa85f6a684"
+      },
+      {
+        "@id": "_:Nc6ef9aadb53946caa7053bb8e3afe681"
+      },
+      {
+        "@id": "_:Nd4d0be0484df411c9d60527944fa4741"
+      },
+      {
+        "@id": "_:N96f4b218d0b04417b488e523f575c254"
+      },
+      {
+        "@id": "_:N4be90048cca742a485f083363834c3bd"
+      },
+      {
+        "@id": "_:N6c99d1523fa54612891858d12f83f376"
+      },
+      {
+        "@id": "_:Nfa8a998a6bf2413e976dfce4c423246c"
+      },
+      {
+        "@id": "_:N1f0041ac1642430fbf7469b2f4f67bf3"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "_:N646b05ac4bc74a32a870cce2cb284b05"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasInformedBy": [
+      {
+        "@id": "_:N6215ed8468df468188e7254bd77d87cc"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1992320d4b354746bcfc6327a146adfd",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://datashapes.org/dash.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfa3dca80e9434405b6364afa85f6a684",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc6ef9aadb53946caa7053bb8e3afe681",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd4d0be0484df411c9d60527944fa4741",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N96f4b218d0b04417b488e523f575c254",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4be90048cca742a485f083363834c3bd",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6c99d1523fa54612891858d12f83f376",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/.ogc/catalog.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfa8a998a6bf2413e976dfce4c423246c",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/ld+json"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/ebv-iadopt.jsonld"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1f0041ac1642430fbf7469b2f4f67bf3",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
+      }
+    ]
+  },
+  {
+    "@id": "_:N646b05ac4bc74a32a870cce2cb284b05",
+    "@type": [
+      "http://www.w3.org/ns/prov#Agent",
+      "https://schema.org/SoftwareApplication"
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "0.3.53"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "ogc.na.update_vocabs version 0.3.53"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "OGC-NA tools"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://github.com/opengeospatial/ogc-na-tools"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6215ed8468df468188e7254bd77d87cc",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "87a628f6-6bd6-4b58-8b7e-66776b0734ea"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/breedingWinteringAndPassageBirds",
+    "@type": [
+      "https://w3id.org/iadopt/ont/Constraint"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Breeding Wintering And Passage Birds"
+      }
+    ],
+    "https://w3id.org/iadopt/ont/constrains": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Birds"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_migratory",
+    "@type": [
+      "https://w3id.org/ad4gd/model/Product",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Estimated count of breeding wintering and passage individuals Migratory"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/higherSpatialResolution": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/lowerSpatialResolution": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/measures": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/temporalResolutionEnd": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/6years"
+      }
+    ],
+    "https://w3id.org/ad4gd/model/temporalResolutionStart": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/3years"
+      }
+    ]
+  },
+  {
+    "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/entailed/ebv-iadopt.jsonld",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/ld+json"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAttributedTo": [
+      {
+        "@id": "_:N32d109945397438383b7fe492b106557"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "_:Nc19668f968604e58a476003ef3914b29"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc19668f968604e58a476003ef3914b29",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "python ogc.na.update_vocabs .ogc/catalog.ttl --batch -w . --update --graph-store https://defs-dev.opengis.net/fuseki-hosted/data"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Entailment and validation"
+      }
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-09-17T14:21:11.628165"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2024-09-17T14:21:07.745450"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "_:N909edbfab3d04dc18d3614d9d46f64b1"
+      },
+      {
+        "@id": "_:Nf02ec20e57d74a7794983e7386143f25"
+      },
+      {
+        "@id": "_:Nc69d8dcb30ac4837833cd774b90f24ec"
+      },
+      {
+        "@id": "_:N2516c3db3afa43c7ba2d5787f862646d"
+      },
+      {
+        "@id": "_:N68a8b8b93b81480cb310cc4806464469"
+      },
+      {
+        "@id": "_:N52416ecae67541579136a10e56922380"
+      },
+      {
+        "@id": "_:Nc4bba31b778844c994c7a4b81c22e6aa"
+      },
+      {
+        "@id": "_:N19f868a242fa4b1f822275622a43c41a"
+      },
+      {
+        "@id": "_:N23ad31fe59e84c039f0ff6e0a35f9021"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "_:N32d109945397438383b7fe492b106557"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasInformedBy": [
+      {
+        "@id": "_:N2567e00a786047c3b5441a88aafceebc"
+      }
+    ]
+  },
+  {
+    "@id": "_:N909edbfab3d04dc18d3614d9d46f64b1",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "application/ld+json"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/ebv-iadopt.jsonld"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf02ec20e57d74a7794983e7386143f25",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://purl.org/dc/terms/format": [
+      {
+        "@value": "text/turtle"
+      }
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/.ogc/catalog.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc69d8dcb30ac4837833cd774b90f24ec",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2516c3db3afa43c7ba2d5787f862646d",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N68a8b8b93b81480cb310cc4806464469",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.opengis.net/def/metamodel/profiles/skos_shared"
+      }
+    ]
+  },
+  {
+    "@id": "_:N52416ecae67541579136a10e56922380",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc4bba31b778844c994c7a4b81c22e6aa",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N19f868a242fa4b1f822275622a43c41a",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://datashapes.org/dash.ttl"
+      }
+    ]
+  },
+  {
+    "@id": "_:N23ad31fe59e84c039f0ff6e0a35f9021",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2567e00a786047c3b5441a88aafceebc",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "87a628f6-6bd6-4b58-8b7e-66776b0734ea"
+      }
+    ]
+  },
+  {
+    "@id": "_:N32d109945397438383b7fe492b106557",
+    "@type": [
+      "http://www.w3.org/ns/prov#Agent",
+      "https://schema.org/SoftwareApplication"
+    ],
+    "http://purl.org/dc/terms/hasVersion": [
+      {
+        "@value": "0.3.53"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "ogc.na.update_vocabs version 0.3.53"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "OGC-NA tools"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://github.com/opengeospatial/ogc-na-tools"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Ecosystemstructure",
+    "@type": [
+      "https://w3id.org/iadopt/ont/VariableSet",
+      "http://w3id.org/ad4gd/ev/EBV",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "Ecosystem structure"
+      }
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Ecosystem structure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/wetlands",
+    "@type": [
+      "https://w3id.org/iadopt/ont/Entity"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Wetlands"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://w3id.org/iadopt/ont/Variable"
+    ],
+    "http://www.opengis.net/def/metamodel/ogc-na/status": [
+      {
+        "@id": "http://www.opengis.net/def/status/valid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Speciesabundances"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_migratory"
+      },
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_wetlands"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Estimated count of breeding wintering and passage individuals"
+      }
+    ],
+    "https://w3id.org/iadopt/ont/hasConstraint": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/breedingWinteringAndPassageBirds"
+      }
+    ],
+    "https://w3id.org/iadopt/ont/hasContextObject": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/wetlands"
+      }
+    ],
+    "https://w3id.org/iadopt/ont/hasMatrix": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/freshWater"
+      }
+    ],
+    "https://w3id.org/iadopt/ont/hasObjectOfInterest": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/Birds"
+      }
+    ],
+    "https://w3id.org/iadopt/ont/hasProperty": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv/estimatedCount"
+      }
+    ]
+  },
+  {
+    "@id": "http://w3id.org/ad4gd/ev/ebv/",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://purl.org/dc/terms/provenance": [
+      {
+        "@value": "Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@value": "Collection hierarchy for this ConceptScheme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@value": "Concepts in Essential Biodiversity Variables - codelist scheme"
+      }
+    ]
+  }
+]
