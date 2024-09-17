@@ -1,0 +1,244 @@
+{
+  "@context": "ebv-iadopt.context.jsonld",
+  "$schema": "ebv-iadopt.schema.yml",
+  "@id": "http://w3id.org/ad4gd/ev/ebv",
+  "@type": [
+    "ConceptScheme",
+    "Dataset"
+  ],
+  "dct:description": {
+    "@language": "en",
+    "@value": "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"
+  },
+  "identifier": "EBV",
+  "dct:title": {
+    "@language": "en",
+    "@value": "Essential Biodiversity Variables - codelist scheme"
+  },
+  "isDefinedBy": "https://geobon.org/ebvs",
+  "seeAlso": {
+    "@id": "http://w3id.org/ad4gd/ev/EBV",
+    "@type": "http://www.w3.org/2002/07/owl#Class",
+    "rdfs:comment": {
+      "@language": "en",
+      "@value": "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"
+    },
+    "isDefinedBy": "https://geobon.org/ebvs",
+    "rdfs:label": {
+      "@language": "en",
+      "@value": "Essential Biodiversity Variables - codelist class"
+    },
+    "seeAlso": "http://w3id.org/ad4gd/ev/ebv",
+    "rdfs:subClassOf": {
+      "@id": "skos:Concept"
+    }
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"
+  },
+  "hasTopConcept": [
+    {
+      "@id": "ad4gd-ebv:Speciespopulations",
+      "@type": [
+        "Concept",
+        "iadopt:VariableSet",
+        "http://w3id.org/ad4gd/ev/EBV"
+      ],
+      "http://purl.obolibrary.org/obo/hasMember": {
+        "@id": "ad4gd-ebv:Speciesabundances",
+        "@type": [
+          "Concept",
+          "iadopt:VariableSet",
+          "http://w3id.org/ad4gd/ev/EBV"
+        ],
+        "http://purl.obolibrary.org/obo/hasMember": {
+          "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count",
+          "@type": [
+            "Concept",
+            "Variable"
+          ],
+          "hasBroader": "ad4gd-ebv:Speciesabundances",
+          "hasNarrower": [
+            {
+              "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count_wetlands",
+              "@type": [
+                "Concept",
+                "Product"
+              ],
+              "hasBroader": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count",
+              "label": "Estimated count of breeding wintering and passage individuals on Wetlands",
+              "dcat:temporalResolution": "P1W",
+              "ad4gd:higherSpatialResolution": {
+                "@id": "ad4gd-ebv:1km2SpatialResolution",
+                "@type": "qudt:QuantityValue",
+                "hasValue": 1,
+                "unit": "units:KiloM2"
+              },
+              "ad4gd:lowerSpatialResolution": {
+                "@id": "ad4gd-ebv:100km2SpatialResolution",
+                "@type": "qudt:QuantityValue",
+                "hasValue": 100,
+                "unit": "units:KiloM2"
+              },
+              "ad4gd:measures": {
+                "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count"
+              }
+            },
+            {
+              "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count_migratory",
+              "@type": [
+                "Concept",
+                "Product"
+              ],
+              "hasBroader": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count",
+              "label": "Estimated count of breeding wintering and passage individuals Migratory",
+              "ad4gd:higherSpatialResolution": {
+                "@id": "ad4gd-ebv:100km2SpatialResolution"
+              },
+              "ad4gd:lowerSpatialResolution": {
+                "@id": "ad4gd-ebv:1km2SpatialResolution"
+              },
+              "ad4gd:measures": {
+                "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count"
+              },
+              "ad4gd:temporalResolutionEnd": {
+                "@id": "ad4gd-ebv:6years",
+                "@type": "qudt:QuantityValue",
+                "hasValue": 6,
+                "unit": "units:YR"
+              },
+              "ad4gd:temporalResolutionStart": {
+                "@id": "ad4gd-ebv:3years",
+                "@type": "qudt:QuantityValue",
+                "hasValue": 3,
+                "unit": "units:YR"
+              }
+            }
+          ],
+          "label": "Estimated count of breeding wintering and passage individuals",
+          "iadopt:hasConstraint": {
+            "@id": "ad4gd-ebv:breedingWinteringAndPassageBirds",
+            "@type": "Constraint",
+            "label": "Breeding Wintering And Passage Birds",
+            "iadopt:constrains": {
+              "@id": "ad4gd-ebv:Birds",
+              "@type": "Entity",
+              "label": "Birds"
+            }
+          },
+          "iadopt:hasContextObject": {
+            "@id": "ad4gd-ebv:wetlands",
+            "@type": "Entity",
+            "label": "Wetlands"
+          },
+          "iadopt:hasMatrix": {
+            "@id": "ad4gd-ebv:freshWater",
+            "@type": "Entity",
+            "label": "Fresh Water"
+          },
+          "iadopt:hasObjectOfInterest": {
+            "@id": "ad4gd-ebv:Birds"
+          },
+          "iadopt:hasProperty": {
+            "@id": "ad4gd-ebv:estimatedCount",
+            "@type": "Property",
+            "label": "Estimated count"
+          }
+        },
+        "identifier": "1",
+        "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
+        "hasBroader": "ad4gd-ebv:Speciespopulations",
+        "skos:inScheme": {
+          "@id": "http://w3id.org/ad4gd/ev/ebv"
+        },
+        "hasNarrower": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count",
+        "label": "Species abundances"
+      },
+      "identifier": "Species populations",
+      "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
+      "skos:inScheme": {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      },
+      "hasNarrower": "ad4gd-ebv:Speciesabundances",
+      "label": "Species populations"
+    },
+    {
+      "@id": "ad4gd-ebv:Geneticcomposition",
+      "@type": [
+        "Concept",
+        "iadopt:VariableSet",
+        "http://w3id.org/ad4gd/ev/EBV"
+      ],
+      "identifier": "Genetic composition",
+      "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
+      "skos:inScheme": {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      },
+      "label": "Genetic composition"
+    },
+    {
+      "@id": "ad4gd-ebv:Speciestraits",
+      "@type": [
+        "Concept",
+        "iadopt:VariableSet",
+        "http://w3id.org/ad4gd/ev/EBV"
+      ],
+      "identifier": "Species traits",
+      "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
+      "skos:inScheme": {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      },
+      "labels": "Species traits"
+    },
+    {
+      "@id": "ad4gd-ebv:Communitycomposition",
+      "@type": [
+        "Concept",
+        "iadopt:VariableSet",
+        "http://w3id.org/ad4gd/ev/EBV"
+      ],
+      "identifier": "Community composition",
+      "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
+      "skos:inScheme": {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      },
+      "label": "Community composition"
+    },
+    {
+      "@id": "ad4gd-ebv:Ecosystemstructure",
+      "@type": [
+        "Concept",
+        "iadopt:VariableSet",
+        "http://w3id.org/ad4gd/ev/EBV"
+      ],
+      "identifier": "Ecosystem structure",
+      "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
+      "skos:inScheme": {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      },
+      "label": "Ecosystem structure"
+    },
+    {
+      "@id": "ad4gd-ebv:Ecosystemfunction",
+      "@type": [
+        "Concept",
+        "iadopt:VariableSet",
+        "http://w3id.org/ad4gd/ev/EBV"
+      ],
+      "identifier": "Ecosystem function",
+      "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
+      "skos:inScheme": {
+        "@id": "http://w3id.org/ad4gd/ev/ebv"
+      },
+      "label": "Ecosystem function"
+    }
+  ],
+  "label": {
+    "@language": "en",
+    "@value": "Essential Biodiversity Variables - codelist scheme"
+  },
+  "dcat:theme": {
+    "@id": "http://w3id.org/ad4gd/ev/"
+  }
+}
