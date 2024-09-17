@@ -189,7 +189,7 @@
       "skos:inScheme": {
         "@id": "http://w3id.org/ad4gd/ev/ebv"
       },
-      "labels": "Species traits"
+      "label": "Species traits"
     },
     {
       "@id": "ad4gd-ebv:Communitycomposition",
