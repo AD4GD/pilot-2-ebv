@@ -1,0 +1,73 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+
+$defs:
+  URIResource:
+    oneOf:
+      - type: string
+      - type: object
+        required:
+          - '@id'
+        properties:
+          '@id':
+            type: string
+
+  URIResources:
+    oneOf:
+      - type: array
+        items:
+          $ref: '#/$defs/URIResource'
+      - $ref: '#/$defs/URIResource'
+
+  LanguageString:
+    oneOf:
+      - type: string
+      - type: object
+        required:
+          - '@language'
+          - '@value'
+        properties:
+          '@language':
+            type: string
+          '@value':
+            type: string
+
+  SKOSResource:
+    allOf:
+      - $ref: '#/$defs/URIResource'
+    properties:
+      label:
+        $ref: '#/$defs/LanguageString'
+      identifier:
+        type: string
+      definition:
+        $ref: '#/$defs/LanguageString'
+    required:
+      - label
+
+  ConceptScheme:
+    allOf:
+      - $ref: '#/$defs/SKOSResource'
+    properties:
+      hasConcept:
+        $ref: '#/$defs/Concepts'
+      hasTopConcept:
+        $ref: '#/$defs/Concepts'
+
+  Concept:
+    allOf:
+      - $ref: '#/$defs/SKOSResource'
+    properties:
+      hasNarrower:
+        $ref: '#/$defs/Concepts'
+      hasBroader:
+        $ref: '#/$defs/Concepts'
+
+  Concepts:
+    oneOf:
+      - type: array
+        items:
+          $ref: '#/$defs/Concept'
+      - $ref: '#/$defs/Concept'
+
+allOf:
+  - $ref: '#/$defs/ConceptScheme'
