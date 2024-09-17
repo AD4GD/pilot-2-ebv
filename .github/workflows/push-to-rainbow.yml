@@ -9,6 +9,7 @@ on:
     paths:
       - '**.jsonld'
       - '**.schema.yml'
+      - .github/workflows/push-to-rainbow.yml
 
 jobs:
   uplift:
@@ -38,7 +39,3 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: 'entailed/'
-
-  check-links:
-    uses: ./.github/workflows/check-links.yml
-    needs: uplift
