@@ -56,17 +56,17 @@
           "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count",
           "@type": [
             "Concept",
-            "Variable"
+            "Variable",
+            "http://w3id.org/ad4gd/ev/EBV"
           ],
-          "hasBroader": "ad4gd-ebv:Speciesabundances",
           "hasNarrower": [
             {
               "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count_wetlands",
               "@type": [
                 "Concept",
-                "Product"
+                "Product",
+                "http://w3id.org/ad4gd/ev/EBV"
               ],
-              "hasBroader": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count",
               "label": "Estimated count of breeding wintering and passage individuals on Wetlands",
               "dcat:temporalResolution": "P1W",
               "ad4gd:higherSpatialResolution": {
@@ -89,9 +89,9 @@
               "@id": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count_migratory",
               "@type": [
                 "Concept",
-                "Product"
+                "Product",
+                "http://w3id.org/ad4gd/ev/EBV"
               ],
-              "hasBroader": "ad4gd-ebv:Spp_SP_abn_bird_FW_Count",
               "label": "Estimated count of breeding wintering and passage individuals Migratory",
               "ad4gd:higherSpatialResolution": {
                 "@id": "ad4gd-ebv:100km2SpatialResolution"
@@ -148,7 +148,6 @@
         },
         "identifier": "1",
         "isDefinedBy": "https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List",
-        "hasBroader": "ad4gd-ebv:Speciespopulations",
         "skos:inScheme": {
           "@id": "http://w3id.org/ad4gd/ev/ebv"
         },
