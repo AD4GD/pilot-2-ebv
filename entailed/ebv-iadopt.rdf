@@ -2,364 +2,369 @@
 <rdf:RDF
    xmlns:ad4gd="https://w3id.org/ad4gd/model/"
    xmlns:dcat="http://www.w3.org/ns/dcat#"
-   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:iadopt="https://w3id.org/iadopt/ont/"
-   xmlns:ns1="http://www.opengis.net/def/metamodel/ogc-na/"
-   xmlns:ns2="http://purl.obolibrary.org/obo/"
+   xmlns:ns1="http://purl.obolibrary.org/obo/"
+   xmlns:ns2="http://www.opengis.net/def/metamodel/ogc-na/"
    xmlns:prov="http://www.w3.org/ns/prov#"
    xmlns:qudt="http://qudt.org/schema/qudt/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Speciestraits">
-    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
-    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <skos:prefLabel>Species traits</skos:prefLabel>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <dct:identifier>Species traits</dct:identifier>
-    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv">
-    <dct:title xml:lang="en">Essential Biodiversity Variables - codelist scheme</dct:title>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciestraits"/>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Ecosystemfunction"/>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciespopulations"/>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Communitycomposition"/>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Ecosystemstructure"/>
-    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Geneticcomposition"/>
-    <dcat:theme rdf:resource="http://w3id.org/ad4gd/ev/"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
-    <dct:source rdf:resource="http://www.opengis.net/def/entities/bodies/ogcna"/>
-    <skos:prefLabel xml:lang="en">Essential Biodiversity Variables - codelist scheme</skos:prefLabel>
-    <skos:definition xml:lang="en">Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)</skos:definition>
-    <rdfs:isDefinedBy rdf:resource="https://geobon.org/ebvs"/>
-    <dct:identifier>EBV</dct:identifier>
-    <dct:description xml:lang="en">Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)</dct:description>
-    <rdfs:seeAlso rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
-    <ns1:collectionView rdf:resource="http://w3id.org/ad4gd/ev/ebv/"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6c99d1523fa54612891858d12f83f376">
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/.ogc/catalog.ttl"/>
-    <dct:hasVersion>git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435</dct:hasVersion>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <dct:format>text/turtle</dct:format>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1f0041ac1642430fbf7469b2f4f67bf3">
-    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Naaa6f8931b524b5ea7efbf2a21b47e44">
-    <prov:used rdf:nodeID="Nad2fa61b6a814dfabb3f75af22d0e45c"/>
-    <prov:used rdf:nodeID="Nab9adcfb556f45a4a246ed201161b4be"/>
-    <prov:used rdf:nodeID="Nadd7649609bc44bbb2f7f1528a781c54"/>
-    <prov:used rdf:nodeID="Ndebd35bef14648cdaa58dd6cd33f5565"/>
-    <prov:used rdf:nodeID="N03782a0d199542a3990fe4fcf6c6f987"/>
-    <prov:used rdf:nodeID="Nc54161f7345343cda009810aedc83570"/>
-    <prov:used rdf:nodeID="Ncfda09ea28684d1aab86c2743ff07c69"/>
-    <prov:used rdf:nodeID="N8ec1d28003d04570ad8c38c026f867b6"/>
-    <prov:used rdf:nodeID="N261bd175ee5f4ff19c75235a73904b20"/>
-    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T14:21:11.601881</prov:endedAtTime>
-    <prov:wasAssociatedWith rdf:nodeID="Nef85dbce35bd42adaa4ffd66c7450897"/>
-    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T14:21:07.745450</prov:startedAtTime>
-    <prov:wasInformedBy rdf:nodeID="N07155eddb7814538b8148d4087d9795a"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-    <rdfs:label>Entailment and validation</rdfs:label>
-    <rdfs:comment>python ogc.na.update_vocabs .ogc/catalog.ttl --batch -w . --update --graph-store https://defs-dev.opengis.net/fuseki-hosted/data</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc6ef9aadb53946caa7053bb8e3afe681">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&amp;_mediatype=text/turtle"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/EBV">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:isDefinedBy rdf:resource="https://geobon.org/ebvs"/>
-    <rdfs:label xml:lang="en">Essential Biodiversity Variables - codelist class</rdfs:label>
-    <rdfs:seeAlso rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <rdfs:comment xml:lang="en">Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)</rdfs:comment>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution">
-    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/KiloM2"/>
-    <qudt:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</qudt:hasValue>
-    <rdf:type rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfa8a998a6bf2413e976dfce4c423246c">
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/ebv-iadopt.jsonld"/>
-    <dct:hasVersion>git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435</dct:hasVersion>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <dct:format>application/ld+json</dct:format>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Speciespopulations">
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <dct:identifier>Species populations</dct:identifier>
-    <ns2:hasMember rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciesabundances"/>
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
-    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
-    <skos:prefLabel>Species populations</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciesabundances"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/6years">
-    <qudt:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</qudt:hasValue>
-    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/YR"/>
-    <rdf:type rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution">
-    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/KiloM2"/>
-    <rdf:type rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
-    <qudt:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</qudt:hasValue>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf6ab5f4bb1ad4fde9367bd6220e8cf06">
-    <prov:used rdf:nodeID="Nfa8a998a6bf2413e976dfce4c423246c"/>
-    <prov:used rdf:nodeID="N6c99d1523fa54612891858d12f83f376"/>
-    <prov:used rdf:nodeID="N4be90048cca742a485f083363834c3bd"/>
-    <prov:used rdf:nodeID="N96f4b218d0b04417b488e523f575c254"/>
-    <prov:used rdf:nodeID="N1f0041ac1642430fbf7469b2f4f67bf3"/>
-    <prov:used rdf:nodeID="Nd4d0be0484df411c9d60527944fa4741"/>
-    <prov:used rdf:nodeID="Nfa3dca80e9434405b6364afa85f6a684"/>
-    <prov:used rdf:nodeID="N1992320d4b354746bcfc6327a146adfd"/>
-    <prov:used rdf:nodeID="Nc6ef9aadb53946caa7053bb8e3afe681"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
-    <rdfs:label>Entailment and validation</rdfs:label>
-    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T14:21:07.745450</prov:startedAtTime>
-    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T14:21:11.616408</prov:endedAtTime>
-    <prov:wasInformedBy rdf:nodeID="N6215ed8468df468188e7254bd77d87cc"/>
-    <rdfs:comment>python ogc.na.update_vocabs .ogc/catalog.ttl --batch -w . --update --graph-store https://defs-dev.opengis.net/fuseki-hosted/data</rdfs:comment>
-    <prov:wasAssociatedWith rdf:nodeID="N646b05ac4bc74a32a870cce2cb284b05"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nad2fa61b6a814dfabb3f75af22d0e45c">
+  <rdf:Description rdf:nodeID="Nfd886c2ea9c1410ea0e6c147217b1c52">
     <rdfs:seeAlso rdf:resource="https://datashapes.org/dash.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_migratory">
-    <skos:prefLabel>Estimated count of breeding wintering and passage individuals Migratory</skos:prefLabel>
-    <ad4gd:measures rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
-    <ad4gd:temporalResolutionStart rdf:resource="http://w3id.org/ad4gd/ev/ebv/3years"/>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_wetlands">
     <rdf:type rdf:resource="https://w3id.org/ad4gd/model/Product"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ad4gd:temporalResolutionEnd rdf:resource="http://w3id.org/ad4gd/ev/ebv/6years"/>
-    <ad4gd:lowerSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution"/>
-    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
     <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <ad4gd:higherSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:prefLabel>Estimated count of breeding wintering and passage individuals on Wetlands</skos:prefLabel>
+    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+    <dcat:temporalResolution>P1W</dcat:temporalResolution>
+    <ad4gd:higherSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution"/>
+    <ad4gd:measures rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <ad4gd:lowerSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Geneticcomposition">
-    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <dcterms:identifier>Genetic composition</dcterms:identifier>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
-    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
     <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
     <skos:prefLabel>Genetic composition</skos:prefLabel>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <dct:identifier>Genetic composition</dct:identifier>
     <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Speciesabundances">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
-    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
-    <ns2:hasMember rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
-    <skos:prefLabel>Species abundances</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
-    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
-    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciespopulations"/>
-    <dct:identifier>1</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Ecosystemstructure">
-    <skos:prefLabel>Ecosystem structure</skos:prefLabel>
-    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
-    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Speciespopulations">
+    <ns1:hasMember rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciesabundances"/>
+    <dcterms:identifier>Species populations</dcterms:identifier>
     <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <dct:identifier>Ecosystem structure</dct:identifier>
-    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count">
-    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_migratory"/>
-    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_wetlands"/>
-    <iadopt:hasConstraint rdf:resource="http://w3id.org/ad4gd/ev/ebv/breedingWinteringAndPassageBirds"/>
-    <iadopt:hasMatrix rdf:resource="http://w3id.org/ad4gd/ev/ebv/freshWater"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
-    <iadopt:hasProperty rdf:resource="http://w3id.org/ad4gd/ev/ebv/estimatedCount"/>
-    <skos:prefLabel>Estimated count of breeding wintering and passage individuals</skos:prefLabel>
-    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciesabundances"/>
-    <iadopt:hasObjectOfInterest rdf:resource="http://w3id.org/ad4gd/ev/ebv/Birds"/>
-    <iadopt:hasContextObject rdf:resource="http://w3id.org/ad4gd/ev/ebv/wetlands"/>
-    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nef85dbce35bd42adaa4ffd66c7450897">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-    <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
-    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
-    <rdfs:label>OGC-NA tools</rdfs:label>
-    <rdfs:comment>ogc.na.update_vocabs version 0.3.53</rdfs:comment>
-    <dct:hasVersion>0.3.53</dct:hasVersion>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Communitycomposition">
-    <dct:identifier>Community composition</dct:identifier>
+    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
+    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciesabundances"/>
     <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
-    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
-    <skos:prefLabel>Community composition</skos:prefLabel>
     <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <skos:prefLabel>Species populations</skos:prefLabel>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfa3dca80e9434405b6364afa85f6a684">
+  <rdf:Description rdf:nodeID="N37bbb8258596449c98edaf19c1035fd2">
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-20T10:27:43.354129</prov:startedAtTime>
+    <rdfs:label>Entailment and validation</rdfs:label>
+    <rdfs:comment>python ogc.na.update_vocabs .ogc/catalog.ttl --batch -w . --update --graph-store https://defs-dev.opengis.net/fuseki-hosted/data</rdfs:comment>
+    <prov:used rdf:nodeID="N9069cc805dae4c77bacf09ee15488e47"/>
+    <prov:used rdf:nodeID="N74e506715b454b21b20c5bcebd02ccec"/>
+    <prov:used rdf:nodeID="Ndb169f1ef90d4955ab9cd21ce992e268"/>
+    <prov:used rdf:nodeID="Nb9d1f505eeb24598b9d30b706fec1847"/>
+    <prov:used rdf:nodeID="N5dc8c1114970443897de7f81eb7c5311"/>
+    <prov:used rdf:nodeID="N5cec2bb23c574f1c95b2d2e7fff4c8c3"/>
+    <prov:used rdf:nodeID="N581f56d6cece4701b89c785e492caab0"/>
+    <prov:used rdf:nodeID="N8bc3df091054498b98e4b89259917b09"/>
+    <prov:used rdf:nodeID="Nba966f70857c48ba80a09eb3abdf2442"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:wasAssociatedWith rdf:nodeID="N36b7ef15692d4e15a5f56e228dea4f11"/>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-20T10:27:45.674434</prov:endedAtTime>
+    <prov:wasInformedBy rdf:nodeID="N81ffc092bc8f4fc9b18a3a5242dd0c5f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/estimatedCount">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Property"/>
+    <skos:prefLabel>Estimated count</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbe161c1a810e49efad4e137e7fd7a01f">
     <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Birds">
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
-    <skos:prefLabel>Birds</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/entailed/ebv-iadopt.ttl">
-    <prov:wasAttributedTo rdf:nodeID="Nef85dbce35bd42adaa4ffd66c7450897"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <prov:wasGeneratedBy rdf:nodeID="Naaa6f8931b524b5ea7efbf2a21b47e44"/>
-    <dct:format>text/turtle</dct:format>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/entailed/ebv-iadopt.rdf">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <dct:format>application/rdf+xml</dct:format>
-    <prov:wasGeneratedBy rdf:nodeID="Nf6ab5f4bb1ad4fde9367bd6220e8cf06"/>
-    <prov:wasAttributedTo rdf:nodeID="N646b05ac4bc74a32a870cce2cb284b05"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Ecosystemfunction">
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
-    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <dct:identifier>Ecosystem function</dct:identifier>
-    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
-    <skos:prefLabel>Ecosystem function</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N07155eddb7814538b8148d4087d9795a">
-    <dct:identifier>87a628f6-6bd6-4b58-8b7e-66776b0734ea</dct:identifier>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncfda09ea28684d1aab86c2743ff07c69">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N646b05ac4bc74a32a870cce2cb284b05">
-    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-    <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
-    <rdfs:label>OGC-NA tools</rdfs:label>
-    <rdfs:comment>ogc.na.update_vocabs version 0.3.53</rdfs:comment>
-    <dct:hasVersion>0.3.53</dct:hasVersion>
-  </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/3years">
+    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/YR"/>
     <rdf:type rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
     <qudt:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</qudt:hasValue>
-    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/YR"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd4d0be0484df411c9d60527944fa4741">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  <rdf:Description rdf:nodeID="N51588f145ed94b0e83cf18018da90152">
+    <prov:used rdf:nodeID="Na3566c877f324166b66cb670f5ef7a84"/>
+    <prov:used rdf:nodeID="N8caeef10588f42f2b77f82ebcde2bd79"/>
+    <prov:used rdf:nodeID="Nf7a894c154ef4368a82d60c9c4803cba"/>
+    <prov:used rdf:nodeID="Neb56b82487c64a179dde8481122c0f72"/>
+    <prov:used rdf:nodeID="Nbe161c1a810e49efad4e137e7fd7a01f"/>
+    <prov:used rdf:nodeID="N5f80897a1f424070a6ea0f0a134bdc2e"/>
+    <prov:used rdf:nodeID="Ndb6ce06f29fb4a0bbfc1eb88e3620f5e"/>
+    <prov:used rdf:nodeID="Nfd886c2ea9c1410ea0e6c147217b1c52"/>
+    <prov:used rdf:nodeID="Na5d4d7dcd64d466f8722519ead7a39eb"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <rdfs:label>Entailment and validation</rdfs:label>
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-20T10:27:43.354129</prov:startedAtTime>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-20T10:27:45.690718</prov:endedAtTime>
+    <prov:wasInformedBy rdf:nodeID="Nf216f5e6e58c43b7a31a2f00ef181380"/>
+    <rdfs:comment>python ogc.na.update_vocabs .ogc/catalog.ttl --batch -w . --update --graph-store https://defs-dev.opengis.net/fuseki-hosted/data</rdfs:comment>
+    <prov:wasAssociatedWith rdf:nodeID="N4679c91d6bff467ebc0c521876f6f4fc"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N4be90048cca742a485f083363834c3bd">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/">
-    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <skos:definition>Collection hierarchy for this ConceptScheme</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:prefLabel>Concepts in Essential Biodiversity Variables - codelist scheme</skos:prefLabel>
-    <dct:provenance>Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl</dct:provenance>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ndebd35bef14648cdaa58dd6cd33f5565">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&amp;_mediatype=text/turtle"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/wetlands">
-    <skos:prefLabel>Wetlands</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_wetlands">
-    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
-    <dcat:temporalResolution>P1W</dcat:temporalResolution>
-    <skos:prefLabel>Estimated count of breeding wintering and passage individuals on Wetlands</skos:prefLabel>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Communitycomposition">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://w3id.org/ad4gd/model/Product"/>
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <skos:prefLabel>Community composition</skos:prefLabel>
     <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
-    <ad4gd:higherSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution"/>
-    <ns1:status rdf:resource="http://www.opengis.net/def/status/valid"/>
-    <ad4gd:lowerSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution"/>
-    <ad4gd:measures rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+    <dcterms:identifier>Community composition</dcterms:identifier>
+    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc54161f7345343cda009810aedc83570">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/.ogc/catalog.ttl"/>
-    <dct:hasVersion>git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435</dct:hasVersion>
-    <dct:format>text/turtle</dct:format>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6215ed8468df468188e7254bd77d87cc">
-    <dct:identifier>87a628f6-6bd6-4b58-8b7e-66776b0734ea</dct:identifier>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count">
+    <iadopt:hasContextObject rdf:resource="http://w3id.org/ad4gd/ev/ebv/wetlands"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Variable"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <iadopt:hasObjectOfInterest rdf:resource="http://w3id.org/ad4gd/ev/ebv/Birds"/>
+    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <iadopt:hasMatrix rdf:resource="http://w3id.org/ad4gd/ev/ebv/freshWater"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_migratory"/>
+    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_wetlands"/>
+    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciesabundances"/>
+    <skos:prefLabel>Estimated count of breeding wintering and passage individuals</skos:prefLabel>
+    <iadopt:hasConstraint rdf:resource="http://w3id.org/ad4gd/ev/ebv/breedingWinteringAndPassageBirds"/>
+    <iadopt:hasProperty rdf:resource="http://w3id.org/ad4gd/ev/ebv/estimatedCount"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/breedingWinteringAndPassageBirds">
     <iadopt:constrains rdf:resource="http://w3id.org/ad4gd/ev/ebv/Birds"/>
     <skos:prefLabel>Breeding Wintering And Passage Birds</skos:prefLabel>
     <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Constraint"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nab9adcfb556f45a4a246ed201161b4be">
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv">
+    <dcterms:identifier>EBV</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://w3id.org/ad4gd/ev/"/>
+    <skos:prefLabel xml:lang="en">Essential Biodiversity Variables - codelist scheme</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <skos:definition xml:lang="en">Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)</skos:definition>
+    <dcterms:source rdf:resource="http://www.opengis.net/def/entities/bodies/ogcna"/>
+    <ns2:collectionView rdf:resource="http://w3id.org/ad4gd/ev/ebv/"/>
+    <rdfs:isDefinedBy rdf:resource="https://geobon.org/ebvs"/>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciespopulations"/>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciestraits"/>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Ecosystemfunction"/>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Communitycomposition"/>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Geneticcomposition"/>
+    <skos:hasTopConcept rdf:resource="http://w3id.org/ad4gd/ev/ebv/Ecosystemstructure"/>
+    <dcterms:description xml:lang="en">Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)</dcterms:description>
+    <dcterms:title xml:lang="en">Essential Biodiversity Variables - codelist scheme</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count_migratory">
+    <ad4gd:temporalResolutionStart rdf:resource="http://w3id.org/ad4gd/ev/ebv/3years"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <rdf:type rdf:resource="https://w3id.org/ad4gd/model/Product"/>
+    <ad4gd:higherSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution"/>
+    <ad4gd:temporalResolutionEnd rdf:resource="http://w3id.org/ad4gd/ev/ebv/6years"/>
+    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <skos:prefLabel>Estimated count of breeding wintering and passage individuals Migratory</skos:prefLabel>
+    <ad4gd:lowerSpatialResolution rdf:resource="http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution"/>
+    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+    <ad4gd:measures rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8caeef10588f42f2b77f82ebcde2bd79">
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/.ogc/catalog.ttl"/>
+    <dcterms:hasVersion>git:b04ebde772fc4420249b6a5f6c2cb14fbff96324</dcterms:hasVersion>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"/>
+    <dcterms:format>text/turtle</dcterms:format>
   </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/estimatedCount">
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Property"/>
-    <skos:prefLabel>Estimated count</skos:prefLabel>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Ecosystemfunction">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <skos:prefLabel>Ecosystem function</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
+    <dcterms:identifier>Ecosystem function</dcterms:identifier>
+    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N8ec1d28003d04570ad8c38c026f867b6">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"/>
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Speciesabundances">
+    <ns1:hasMember rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+    <skos:prefLabel>Species abundances</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
+    <dcterms:identifier>1</dcterms:identifier>
+    <skos:broader rdf:resource="http://w3id.org/ad4gd/ev/ebv/Speciespopulations"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <skos:narrower rdf:resource="http://w3id.org/ad4gd/ev/ebv/Spp_SP_abn_bird_FW_Count"/>
+    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nadd7649609bc44bbb2f7f1528a781c54">
+  <rdf:Description rdf:nodeID="N4679c91d6bff467ebc0c521876f6f4fc">
+    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
+    <rdfs:label>OGC-NA tools</rdfs:label>
+    <rdfs:comment>ogc.na.update_vocabs version 0.3.53</rdfs:comment>
+    <dcterms:hasVersion>0.3.53</dcterms:hasVersion>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5f80897a1f424070a6ea0f0a134bdc2e">
     <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N261bd175ee5f4ff19c75235a73904b20">
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/EBV">
+    <rdfs:seeAlso rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <rdfs:label xml:lang="en">Essential Biodiversity Variables - codelist class</rdfs:label>
+    <rdfs:comment xml:lang="en">Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:isDefinedBy rdf:resource="https://geobon.org/ebvs"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N74e506715b454b21b20c5bcebd02ccec">
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/definitions/profiles/resources/skos_shared_shacl.ttl"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N03782a0d199542a3990fe4fcf6c6f987">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-    <dct:hasVersion>git:b796ebec57d7ac15efd8bdd6384de92f1bb2a435</dct:hasVersion>
-    <dct:format>application/ld+json</dct:format>
-    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/ebv-iadopt.jsonld"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/freshWater">
-    <skos:prefLabel>Fresh Water</skos:prefLabel>
-    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N96f4b218d0b04417b488e523f575c254">
-    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
+  <rdf:Description rdf:nodeID="Nba966f70857c48ba80a09eb3abdf2442">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N1992320d4b354746bcfc6327a146adfd">
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/">
+    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <dcterms:provenance>Generated by the OGC Definitions Server to support integration of the elements of this ConceptScheme into bigger collections. ogc_skos_profile_entailements.ttl</dcterms:provenance>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:definition>Collection hierarchy for this ConceptScheme</skos:definition>
+    <skos:prefLabel>Concepts in Essential Biodiversity Variables - codelist scheme</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36b7ef15692d4e15a5f56e228dea4f11">
+    <rdfs:comment>ogc.na.update_vocabs version 0.3.53</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
+    <rdfs:seeAlso rdf:resource="https://github.com/opengeospatial/ogc-na-tools"/>
+    <rdfs:label>OGC-NA tools</rdfs:label>
+    <dcterms:hasVersion>0.3.53</dcterms:hasVersion>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/entailed/ebv-iadopt.ttl">
+    <prov:wasGeneratedBy rdf:nodeID="N37bbb8258596449c98edaf19c1035fd2"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <prov:wasAttributedTo rdf:nodeID="N36b7ef15692d4e15a5f56e228dea4f11"/>
+    <dcterms:format>text/turtle</dcterms:format>
+    <dcterms:hasVersion>git:b04ebde772fc4420249b6a5f6c2cb14fbff96324</dcterms:hasVersion>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N581f56d6cece4701b89c785e492caab0">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Speciestraits">
+    <dcterms:identifier>Species traits</dcterms:identifier>
+    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
+    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <skos:prefLabel>Species traits</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5cec2bb23c574f1c95b2d2e7fff4c8c3">
     <rdfs:seeAlso rdf:resource="https://datashapes.org/dash.ttl"/>
     <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb6ce06f29fb4a0bbfc1eb88e3620f5e">
+    <rdfs:seeAlso rdf:resource="http://www.opengis.net/def/metamodel/profiles/skos_shared"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Ecosystemstructure">
+    <dcterms:identifier>Ecosystem structure</dcterms:identifier>
+    <rdfs:isDefinedBy rdf:resource="https://github.com/EuropaBON/EBV-Descriptions/wiki/Master-EBV-List"/>
+    <skos:topConceptOf rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <ns2:status rdf:resource="http://www.opengis.net/def/status/valid"/>
+    <rdf:type rdf:resource="http://w3id.org/ad4gd/ev/EBV"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/VariableSet"/>
+    <skos:inScheme rdf:resource="http://w3id.org/ad4gd/ev/ebv"/>
+    <skos:prefLabel>Ecosystem structure</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/Birds">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
+    <skos:prefLabel>Birds</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9069cc805dae4c77bacf09ee15488e47">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dcterms:hasVersion>git:b04ebde772fc4420249b6a5f6c2cb14fbff96324</dcterms:hasVersion>
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/.ogc/catalog.ttl"/>
+    <dcterms:format>text/turtle</dcterms:format>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8bc3df091054498b98e4b89259917b09">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/ebv-iadopt.jsonld"/>
+    <dcterms:hasVersion>git:b04ebde772fc4420249b6a5f6c2cb14fbff96324</dcterms:hasVersion>
+    <dcterms:format>application/ld+json</dcterms:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/entailed/ebv-iadopt.rdf">
+    <dcterms:hasVersion>git:b04ebde772fc4420249b6a5f6c2cb14fbff96324</dcterms:hasVersion>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dcterms:format>application/rdf+xml</dcterms:format>
+    <prov:wasGeneratedBy rdf:nodeID="N51588f145ed94b0e83cf18018da90152"/>
+    <prov:wasAttributedTo rdf:nodeID="N4679c91d6bff467ebc0c521876f6f4fc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/6years">
+    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/YR"/>
+    <qudt:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</qudt:hasValue>
+    <rdf:type rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/1km2SpatialResolution">
+    <qudt:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</qudt:hasValue>
+    <rdf:type rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/KiloM2"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.opengis.net/def/entities/bodies/ogcna">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na3566c877f324166b66cb670f5ef7a84">
+    <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/opengeospatial/NamingAuthority/master/ebv-iadopt.jsonld"/>
+    <dcterms:hasVersion>git:b04ebde772fc4420249b6a5f6c2cb14fbff96324</dcterms:hasVersion>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <dcterms:format>application/ld+json</dcterms:format>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf216f5e6e58c43b7a31a2f00ef181380">
+    <dcterms:identifier>a7f5b1f5-6bae-44e5-b9c3-fb777a3b7056</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/100km2SpatialResolution">
+    <qudt:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</qudt:hasValue>
+    <rdf:type rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+    <qudt:unit rdf:resource="http://qudt.org/vocab/unit/KiloM2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndb169f1ef90d4955ab9cd21ce992e268">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&amp;_mediatype=text/turtle"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na5d4d7dcd64d466f8722519ead7a39eb">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&amp;_mediatype=text/turtle"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5dc8c1114970443897de7f81eb7c5311">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile.shapes.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81ffc092bc8f4fc9b18a3a5242dd0c5f">
+    <dcterms:identifier>a7f5b1f5-6bae-44e5-b9c3-fb777a3b7056</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb9d1f505eeb24598b9d30b706fec1847">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf7a894c154ef4368a82d60c9c4803cba">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/ogc_skos_profile_entailments.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neb56b82487c64a179dde8481122c0f72">
+    <rdfs:seeAlso rdf:resource="http://defs-dev.opengis.net/ogc-na/scripts/skosbasics.shapes.ttl"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/freshWater">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
+    <skos:prefLabel>Fresh Water</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/ad4gd/ev/ebv/wetlands">
+    <rdf:type rdf:resource="https://w3id.org/iadopt/ont/Entity"/>
+    <skos:prefLabel>Wetlands</skos:prefLabel>
   </rdf:Description>
 </rdf:RDF>
