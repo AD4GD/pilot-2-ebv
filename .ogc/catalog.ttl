@@ -13,7 +13,7 @@ _:ad4gd-pilot2 a dcat:Catalog;
 
 _:propertiesEntailments a dcat:Dataset, dcfg:DomainConfiguration ;
   dct:description "Properties entailments" ;
-  dcfg:glob "ebv-iadopt.jsonld" ;
+  dcfg:glob "ebv-iadopt.ttl" ;
   dct:conformsTo profiles:skos_shared, profiles:skos_conceptscheme, profiles:skos_conceptscheme_ogc, profiles:vocprez_ogc ;
 .
 
