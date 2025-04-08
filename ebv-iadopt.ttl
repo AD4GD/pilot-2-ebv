@@ -6987,9 +6987,9 @@
 
 <http://w3id.org/ad4gd/ev/ebv> a skos:ConceptScheme,
         dcat:Dataset ;
-    dcterms:description "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"@en ;
+    dcterms:description "*TEST* Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"@en ;
     dcterms:identifier "EBV"^^rdfs:Literal ;
-    dcterms:title "Essential Biodiversity Variables - codelist scheme"@en ;
+    dcterms:title "Essential Biodiversity Variables - codelist scheme good"@en ;
     rdfs:isDefinedBy <https://geobon.org/ebvs> ;
     rdfs:seeAlso <http://w3id.org/ad4gd/ev/EBV> ;
     skos:definition "Essential Biodiversity Variables (EBVs) are defined as a minimum set of measurements, complementary to one another, that can capture major dimensions of biodiversity change. EBVs are organized in six classes (Genetic composition, Species populations, Species traits, Community composition, Ecosystem functioning, Ecosystem structure) and cover the three realms (Marine/coastal, Terrestrial and Freshwater)"@en ;
