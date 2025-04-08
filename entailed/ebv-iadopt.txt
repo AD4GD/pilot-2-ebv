@@ -1,6 +1,9 @@
-=== vocprez (http://www.opengis.net/def/metamodel/profiles/vocprez_ogc) ===
+=== skos_shared (http://www.opengis.net/def/metamodel/profiles/skos_shared) ===
 Validation Report
 Conforms: True
+
+# Failed artifacts
+http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle
 
 === skos_ogc (http://www.opengis.net/def/metamodel/profiles/skos_conceptscheme_ogc) ===
 Validation Report
@@ -10,12 +13,9 @@ Conforms: True
 Validation Report
 Conforms: True
 
-=== skos_shared (http://www.opengis.net/def/metamodel/profiles/skos_shared) ===
+=== vocprez (http://www.opengis.net/def/metamodel/profiles/vocprez_ogc) ===
 Validation Report
 Conforms: True
-
-# Failed artifacts
-http://defs-dev.opengis.net/def/metamodel/profiles/skos_shared?_profile=shacl&_mediatype=text/turtle
 
 === skos (http://www.w3.org/2004/02/skos/core) ===
 Validation Report
