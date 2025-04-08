@@ -36,6 +36,15 @@ jobs:
       - name: Download latest data
         if: ${{ inputs.downloadNewData || github.event_name == 'schedule' }}
         run: wget "https://github.com/AD4GD/GDIM/raw/refs/heads/main/EVs/ebv.ttl" -O ebv-iadopt.ttl
+      - name: Additional entailments
+        shell: python
+        run: |
+          from pyshacl import validate
+          from rdflib import Graph
+          g = Graph().parse('ebv-iadopt.ttl')
+          s = Graph().parse('entailments.shacl.ttl')
+          validate(g, shacl_graph=s, advanced=True, inplace=True)
+          g.serialize('ebv-iadopt.ttl')
       - name: Process files
         env:
           DB_USERNAME: ${{ secrets.UPLOAD_GRAPH_STORE_USERNAME }}
